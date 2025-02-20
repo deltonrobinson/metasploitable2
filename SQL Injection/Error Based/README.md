@@ -1,7 +1,7 @@
 <h1>Error Based SQL Injection Attack</h1>
 
 <h3>Description</h3>
-Project consists of performing a simple Error based SQL Injection attack on the Mutillidae vulnerable Metasploitable 2 server.
+Project consists of performing a Error Based SQL Injection Attack on the Mutillidae vulnerable Metasploitable 2 web server.
 <br>
 
 <h3>Languages and Utilities Used</h3>
