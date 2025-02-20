@@ -1,4 +1,3 @@
-# Union Based SQL Injection Attack
 <h1>Union Based SQL Injection Attack</h1>
 
 <h3>Description</h3>
