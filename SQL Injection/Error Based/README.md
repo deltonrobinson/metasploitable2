@@ -6,29 +6,27 @@ Project consists of performing a Error Based SQL Injection Attack on the Mutilli
 
 <h3>Languages and Utilities Used</h3>
 
-- <b>VMWare</b> 
-- <b>Cowrie</b>
-- <b>vsftpd</b>
-- <b>Apache httpd</b>
-- <b>Samba smbd</b>
+- <b>VMWare</b>
 - <b>MySQL</b>
 
 <h3>Environments Used </h3>
-- <b>Kali Linux</b>
 
+- <b>Kali Linux</b>
+- <b>Metasploitable 2</b>
 <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
 
-<h1>Setup of Ubuntu Honeypot within VMWare Environment</h1>
-
-<h2>Cowrie OpenSSH</h2>
-<h3>Setting up the Cowrie SSH Honeypot</h3>
+<h1>Performing the Error Based SQL Injection Attack</h1>
 <p align="center">
-Installing python virtual environment:<br>
-<img src="https://i.imgur.com/4miRnKd.png" height="80%" width="80%" alt="Setting up Cowrie OpenSSH"/><br>
-Adding a cowrie user to the honeypot:<br>
-<img src="https://i.imgur.com/N10xVyd.png" height="80%" width="80%" alt="Setting up Cowrie OpenSSH"/><br>
-Activating and Starting Cowrie:<br>
-<img src="https://i.imgur.com/3UMcjcM.png" height="80%" width="80%" alt="Setting up Cowrie OpenSSH"/><br>
-Setting the Honeypot password to 123456789 by editing userdb.txt:<br>
-<img src="https://i.imgur.com/vbitZlC.png" height="80%" width="80%" alt="Setting up Cowrie OpenSSH"/><br>
+To begin, I input the string " '"()[]{} " in order to induce a syntax error:<br>
+<img src="https://i.imgur.com/0cq5jnr.png" height="80%" width="80%" alt=""/><br>
+Viewing said Error, the syntax is incorrect due to the single quote "'" at the beginning of my string, ending the username string, and placing an unexpected double quote """ after the username, causing an Error:<br>
+<img src="https://i.imgur.com/ibiwOZB.png" height="80%" width="80%" alt=""/><br>
+:<br>
+<img src="https://i.imgur.com/NprzmEG.png" height="80%" width="80%" alt=""/><br>
+:<br>
+<img src="https://i.imgur.com/SHPHhIf.png" height="80%" width="80%" alt=""/><br>
+:<br>
+<img src="https://i.imgur.com/wzezJle.png" height="80%" width="80%" alt=""/><br>
+:<br>
+<img src="https://i.imgur.com/UxYbohG.png" height="80%" width="80%" alt=""/><br>
 </p>
