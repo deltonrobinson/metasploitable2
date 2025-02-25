@@ -7,11 +7,7 @@ Project consists of performing a Union Based SQL Injection Attack on the Mutilli
 <h3>Languages and Utilities Used</h3>
 
 - <b>VMWare</b> 
-- <b>Cowrie</b>
-- <b>vsftpd</b>
-- <b>Apache httpd</b>
-- <b>Samba smbd</b>
-- <b>MySQL</b>
+- <b>Metasploitable 2</b>
 
 <h3>Environments Used </h3>
 - <b>Kali Linux</b>
