@@ -1,4 +1,4 @@
-<h1>Union Based SQL Injection Attack</h1>
+<h1>Union Based SQL Injection Attack (WIP)</h1>
 
 <h3>Description</h3>
 Project consists of performing a Union Based SQL Injection Attack on the Mutillidae vulnerable Metasploitable 2 web server.
@@ -12,10 +12,9 @@ Project consists of performing a Union Based SQL Injection Attack on the Mutilli
 <h3>Environments Used </h3>
 - <b>Kali Linux</b>
 
-<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
 
-<h1>Setup of Ubuntu Honeypot within VMWare Environment</h1>
-
+<h1>...</h1>
+<!---
 <h2>Cowrie OpenSSH</h2>
 <h3>Setting up the Cowrie SSH Honeypot</h3>
 <p align="center">
@@ -28,3 +27,4 @@ Activating and Starting Cowrie:<br>
 Setting the Honeypot password to 123456789 by editing userdb.txt:<br>
 <img src="https://i.imgur.com/vbitZlC.png" height="80%" width="80%" alt="Setting up Cowrie OpenSSH"/><br>
 </p>
+-->
